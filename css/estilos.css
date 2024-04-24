@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+body {
+
+    background-color: #F5F5F5;
+    font-family: "Poppins", sans-serif;
+    font-size:15px;
+
+}
+
+
+header {
+
+background-color: rgb(105, 154, 229);
+width:100%;
+height: 90px;
+border-radius:3%;
+
+display: flex;
+justify-content:center;
+align-items:center;
+}
+
+img {
+border-radius:50%;
+width:90%;
+display: block;
+/*transforma un elemento de línea en uno de bloque*/
+margin:auto;
+
+
+
+
+}
+
+
+
+h2,
+h1 {
+
+    font-family: "Changa", sans-serif;
+    text-transform:capitalize;
+  
+   
+}
+
+
+h2,h1 {
+
+  text-align:center;
+  font-weight: 400;
+  color: rgb(20, 20, 20);
+  font-size: 45px;
+  margin: 2px;
+ 
+}
+
+h1{
+    color: #F5F5F5;
+    text-align: center;
+    font-size:60px;
+
+
+}
+
+h3{
+    font-family: "Changa", sans-serif;
+    text-align: left;
+    font-weight: 500;
+    font-size:25px;
+    margin: 1px;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+section {
+
+    font-size:25px;
+}
+
+a:hover {
+
+    text-decoration: underline;
+}
+
+
+
+#vinculo {
+    color: #F5F5F5;
+    font-size: 13px;
+    background-color: rgb(105, 154, 229);
+    width:80px;
+    height: 2%;
+    display: flex;
+    justify-content:center;
+    align-items:left;
+
+}
+
+#vinculo:hover {
+
+    font-style: italic;
+
+}
+
+
+
+.listas {
+
+    font-family: "Poppins", sans-serif;
+    font-size:15px;
+    font-weight: 300;
+
+
+}
